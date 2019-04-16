@@ -1,0 +1,15 @@
+var fullName = "Antonio Tobar";
+var birthYear = 1986;
+
+var myArray = [];
+
+myArray.push("fullName", "birthYear");
+
+
+var splitName = fullName.split("Antonio", "Tobar");
+
+
+
+function sayHello(){
+  console.log("Hello, ${firstName}!")
+}
